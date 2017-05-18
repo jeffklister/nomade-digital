@@ -1,0 +1,59 @@
+h2, h3 {
+    color: #F05F40;
+}
+ul, li {
+    color: black;
+}
+.header-content p{
+    color: white;
+}
+.text-faded a {
+    text-decoration: none;
+}
+.bg-dark {
+  background-color: black;
+  color: white;
+}
+.call-to-action {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+    background-color: #F05F40;
+    color: white;
+}
+#sobre {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("../img/header2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sobre p, ul{
+    color: black;
+    font-weight: 500;
+}
+#foot {
+    display: flex;
+    align-items: center;
+    height: 100vh;;
+
+    background-image: url("../img/7.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#foot h2, p, i {
+    color: #101010;
+}
+@media (min-width: 768px)
+.navbar-default .navbar-header .navbar-brand {
+    color: white;
+}
+@media (min-width: 768px)
+.navbar-default .navbar-header .navbar-brand:hover {
+    color: #F05F40;
+}
