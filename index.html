@@ -309,6 +309,15 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    
+      <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+      $('#gform *').fadeOut(2000);
+       $('#gform').prepend('<h2>Obrigado pelo contato!<br>Responderei assim que possível!</h2>');
+      });
+    </script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
