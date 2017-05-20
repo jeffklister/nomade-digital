@@ -14,6 +14,9 @@ ul, li {
   background-color: black;
   color: white;
 }
+.bg-dark p{
+    color: white;
+}
 .call-to-action {
     padding-top: 45px;
     padding-bottom: 45px;
@@ -21,6 +24,9 @@ ul, li {
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
     background-color: #F05F40;
     color: white;
+}
+#vantagens {
+    background-color: black;
 }
 #sobre {
     display: flex;
