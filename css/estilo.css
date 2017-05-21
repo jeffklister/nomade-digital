@@ -38,10 +38,6 @@ ul, li {
     background-size: cover;
     background-repeat: no-repeat;
 }
-#sobre p, ul, li{
-    color: black;
-    font-weight: 500;
-}
 #foot {
     display: flex;
     align-items: center;
@@ -72,4 +68,7 @@ ul, li {
 @media (min-width: 768px)
 .navbar-default .navbar-header .navbar-brand:hover {
     color: #F05F40;
+}
+.portfolio-box .portfolio-box-caption {
+    background-color: rgba(240,95,64,.7);
 }
